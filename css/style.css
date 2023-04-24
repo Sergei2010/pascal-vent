@@ -23,7 +23,6 @@ body {
 /* .title */
 
 .title {
-  max-width: max-content;
   font-family: 'Commissioner', sans-serif;
   font-weight: 400;
   text-transform: capitalize;
