@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	});
 });
 
-const animItems = document.querySelectorAll('._anim-items');
+const animItems = document.querySelectorAll('.anim-items');
 
 if (animItems.length > 0) {
 	window.addEventListener('scroll', animOnScroll);
@@ -36,10 +36,10 @@ if (animItems.length > 0) {
 			}
 
 			if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
-				animItem.classList.add('_active');
+				animItem.classList.add('active');
 			} else {
-				if (!animItem.classList.contains("_anim-no-hide")) {
-					animItem.classList.remove('_active');
+				if (!animItem.classList.contains("anim-no-hide")) {
+					animItem.classList.remove('active');
 				}
 			}
 		}

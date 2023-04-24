@@ -199,7 +199,7 @@ body {
   z-index: 11;
 }
 
-.header-scroll._active {
+.header-scroll.active {
   transform: translate(0px, 0px);
   opacity: 1;
 }
@@ -210,7 +210,7 @@ body {
   transition: all 1s ease 0s;
 }
 
-.anim-shows._active {
+.anim-shows.active {
   transform: translate(0px, 0px);
   opacity: 1;
 }
